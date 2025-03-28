@@ -135,7 +135,7 @@ function showNotification(message) {
 function checkout() {
     if (cart.length === 0) return alert('Seu carrinho está vazio!');
 
-    const phone = '5562981102702'; // Seu número aqui
+    const phone = '5562991525377'; // Seu número aqui
     const items = cart.map(item => 
         `➤ ${item.name} (Tamanho ${item.size}) - ${item.quantity}x - R$${(item.price * item.quantity).toFixed(2)}`
     ).join('%0A');
